@@ -36,7 +36,7 @@ The NGINX "include" directive, you know, it's like finding an old bottle of whis
 ### Audience
 
 > Who will be interested in this use case?
-> 
+>
 > 1. Choose one of the following from our [target personae](CONTRIBUTING.md#target-personae):
     - [Application Developers](CONTRIBUTING.md#application-developers)  
     - [DevOps or PlatformOps Engineers](CONTRIBUTING.md#devops-and-platformops-engineers)  
@@ -60,9 +60,10 @@ The target audience for this use case is the System Administrator. Using "includ
 > In this section, you will provide the steps a user should take.
 >
 > - This could be as simple as "Add the following to your nginx.conf file", or it could require multiple sub-sections.  
-> - If you're not sure how to organize your content, open up a [draft pull request]() in GitHub and tag the @nginx/best-practices team for help.
+> - If you're not sure how to organize your content, start a [style discussion](https://github.com/nginx/best-practices/discussions/new?category=style) in GitHub.
 > - Be sure to provide working, copyable code examples in this section.  
-> - Clearly identify any placeholder text used in the example that the user will need to replace with their own values. Give guidance on what to replace the placeholder value(s) with.
+> - Clearly identify any placeholder text used in the example that the user will need to replace with their own values. Give guidance on what to replace the placeholder value(s) with.  
+> - Tip: You can add example conf files to the [content/conf-examples](content/conf-examples) directory. These can be linked to for download from your doc.
 
 Example:
 
@@ -71,6 +72,8 @@ Example:
 
 In this step, you will create a new file that contains a section of NGINX configuration. 
 This file will be called from the nginx.conf file by using the include directive.
+
+You can download the conf file used in this example here: [some-file.conf](content/conf-examples/some-file.conf).
 ```
 
 ```nginx
@@ -94,7 +97,7 @@ location /some/path/ {
 
 > If needed, you can dive deeper into any concepts in this section.
 
-Example: (This is a continuation of our ChatGPT-generated NGINX include description, in the style of Mr. Bukowski.)
+Example: (*This is a continuation of our ChatGPT-generated NGINX include description, in the style of Mr. Bukowski.*)
 
 You see, NGINX, that tough son of a gun, it’s got this move called "include." It’s like gathering up all those scribbled notes and pieces of paper you've got lying around, and sliding them into one smooth envelope. Neat, huh?
 
