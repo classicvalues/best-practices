@@ -9,7 +9,7 @@ This project is a curated set of best practices for using NGINX. It is jointly m
 
 ## Contacts
 
-We’d like to hear your feedback! If you experience issues with our Gateway Controller, please [open a bug][bug] in
+We’d like to hear your feedback! If you experience issues with our documentation, please [open a bug][bug] in
 GitHub. If you have any suggestions or enhancement requests, please [open an idea][idea] on GitHub discussions.
 
 [bug]:https://github.com/nginx/best-practices/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=
@@ -27,7 +27,5 @@ NGINX Best Practices is for informational use only and is not covered by any sup
 ## Contributors
 
 <a href="https://github.com/nginx/best-practices/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nginx/best-practices" />
+  <img src="https://contrib.rocks/image?repo=nginx/best-practices" alt="contributor avatars"/>
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
